@@ -1,0 +1,107 @@
+
+.container {
+	width: 1230px;
+    padding-right: 15;
+    padding-left: 15;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+header{
+    background-color: #91AB86;
+	position: fixed;
+	top: 0;
+	height: 55px;
+    padding-top: 8px;
+    padding-top: 12px;
+	z-index: 10;
+	width: 100vw;
+}
+nav ul {
+
+    display: flex;
+}
+
+nav li:not(:last-child) {
+    margin-right: 170px;
+}
+
+
+.header-menu a {
+	color: #692237;
+    font-family:'Cormorant Unicase';
+    font-size: 32px;
+}
+main{
+	margin-top: 55px;
+}
+body {
+	background-color:#E9C1C2
+}
+
+h1 {
+	display: grid;
+	color: #18605D;
+	font-family:'Rhythm and Jazz Decor' ;
+	text-align:left;
+	font-size:96px;
+	letter-spacing: -5%; 
+	padding-top: 215px;
+	padding-left: 120px;
+	
+}
+h2 {
+	display: grid;
+	color: #18605D;
+	font-family:'Rhythm and Jazz Decor' ;
+	text-align:left;
+	font-size:84px;
+	letter-spacing: -5%;
+	padding-left: 380px;
+}
+.photo1 {
+	background-image: url("./images/flowers1.png"); 
+	width: 650px;
+    height: 1030px;
+	top: 0px;
+	right: -10px;
+	position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+.style1{
+	color: #692237;
+	font-family:'FoglihtenNo06';
+    font-size: 42px;
+	padding-left: 120px;
+	padding-top: 3px;
+	width: 580px;
+	height: 154px;
+	letter-spacing: -5%;
+
+
+
+}
+p {
+	color: #692237;
+	font-family:'Cormorant Unicase';
+    font-size: 28px;
+	padding-left: 120px;
+	padding-top: 2px;
+}
+.second_style{
+	padding-top: 75px;
+	font-family: "AdleyPro";
+	font-size: 22px;
+	color:#E9C1C2
+
+}
+.third_style{
+	padding-top: 75px;
+	padding-left: 740px;
+	font-family: "AdleyPro";
+	font-size: 28px;
+	color:#91AB86
+}
