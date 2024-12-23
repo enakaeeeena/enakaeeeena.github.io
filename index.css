@@ -202,12 +202,12 @@ p {
 	color:#E9C1C2;
     text-decoration: none;
     border-radius: 31px;
-    transition: fill 0.3s, transform 0.5s; /* Плавный переход для изменения цвета и размера */
+    transition: fill 0.3s, transform 0.5s; 
 }
 
 .btn:hover {
-    transform: scale(1.1); /* Увеличение кнопки в 1.1 раза */
-    background-color: #F4F1D8; /* Изменение цвета фона */
+    transform: scale(1.1);
+    background-color: #F4F1D8;
 }
 
 .About_me{
@@ -442,17 +442,17 @@ p {
 }
 
 .button_1:hover, .button_2:hover, .button_3:hover, .button_4:hover {
-    transform: scale(1.05); /* Увеличение кнопки на 10% при наведении */
+    transform: scale(1.05); 
 }
 
-.feedback {
-    padding: 5px; /* Убедитесь, что это значение минимально */
-    min-height: 520px; /* Если это значение не обязательно, попробуйте его убрать */
+/* .feedback {
+    padding: 5px; 
+    min-height: 520px; 
     position: relative; 
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 0; /* Убедитесь, что у блока нет нижнего отступа */
+    margin-bottom: 0; 
 }
 
 .feedback_title {
@@ -475,11 +475,11 @@ p {
     padding-left: 5px;
     padding-right: 5px;
     padding-top: 45px;
-    margin-bottom: 0; /* Убедитесь, что у блока нет нижнего отступа */
+    margin-bottom: 0;
     position: relative; 
     width: 788px;
     height: auto;
-    margin: 0 auto; /* Центрируем блок */
+    margin: 0 auto; 
     text-align: center; 
 }
 
@@ -530,6 +530,101 @@ input[type="email"]:focus {
 	font-family:'FoglihtenNo06' ;
     transition: fill 0.3s, transform 0.4s;
     text-decoration: none;
+} */
+.feedback {
+    padding: 5px; 
+    min-height: 520px; 
+    position: relative; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.feedback_title {
+    max-width: 574px;
+    z-index: 3;
+    padding-right: 8px;
+    padding-left: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative; 
+}
+
+.feedback h3 {
+    color: #18605D;
+    font-family: 'FoglihtenNo06';
+    text-align: center;
+    font-size: 44px;
+}
+
+.end {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 45px;
+    margin-bottom: 0; 
+    position: relative; 
+    width: 788px;
+    height: auto;
+    margin: 0 auto; 
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+}
+
+.form-group {
+    margin-bottom: 20px; 
+    width: 100%; 
+    text-align: left; 
+}
+
+.end p {
+    padding-top: 20px;
+    color: #18605D;
+    font-family: 'Adlery Pro';
+    font-size: 24px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%; 
+    max-width: 788px; 
+    padding: 15px; 
+    border: 2px solid #91AB86; 
+    border-radius: 40px; 
+    box-sizing: border-box; 
+}
+
+textarea {
+    height: 165px; 
+}
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="email"]:focus {
+    border-color: #91AB86;
+    outline: #FFF8E4; 
+}
+
+.submit-button {
+    width: 50%; 
+    max-width: 788px;
+    padding: 10px; 
+    margin-top: 34px;
+    background-color: #18605D; 
+    color: #E9C1C2; 
+    border: none; 
+    border-radius: 12px; 
+    cursor: pointer; 
+    font-size: 24px; 
+    display: inline-block; 
+    font-family: 'FoglihtenNo06';
+    transition: fill 0.3s, transform 0.4s;
+    text-decoration: none;
+    margin-left: auto; 
+    margin-right: auto; 
+    text-align: center; 
 }
 
 .submit-button:hover {
@@ -538,10 +633,11 @@ input[type="email"]:focus {
 }
 
 
+
 .footer {
-    background-color: #91AB86; /* Зеленый фон футера */
-    color: #E9C1C2; /* Цвет текста */
-    padding: 20px 0; /* Отступы сверху и снизу */
+    background-color: #91AB86; 
+    color: #E9C1C2; 
+    padding: 20px 0; 
 }
 
 .footer_color{
@@ -562,40 +658,40 @@ input[type="email"]:focus {
 .footer_line {
     padding-top: 36px;
     display: flex;
-    align-items: center; /* Центрируем элементы по вертикали */
-    justify-content: space-between; /* Размещаем элементы по краям */
-    text-align: center; /* Центрируем текст */
+    align-items: center; 
+    justify-content: space-between; 
+    text-align: center; 
     background-color: #91AB86;
 }
 
 .logo {
-    margin-right: 20px; /* Отступ справа для логотипа */
+    margin-right: 20px; 
 }
 
 .icons {
     display: flex;
-    justify-content: center; /* Центрируем иконки */
+    justify-content: center; 
 }
 
 .icon-button {
-    margin: 0 81px; /* Отступы между иконками */
-    transition: transform 0.3s; /* Плавный переход при наведении */
+    margin: 0 81px; 
+    transition: transform 0.3s;
 }
 
 .footer-text {
-    margin-left: 20px; /* Отступ слева для текста */
-    color: #E9C1C2; /* Цвет текста */
+    margin-left: 20px; 
+    color: #E9C1C2; 
 }
 
 .icon-button img {
-    width: 85px; /* Установите желаемый размер иконок */
-    height: auto; /* Автоматическая высота */
-    transition: fill 0.3s, transform 0.3s; /* Плавный переход для изменения цвета и размера */
+    width: 85px; 
+    height: auto; 
+    transition: fill 0.3s, transform 0.3s; 
 }
 
 .icon-button:hover img {
-    fill: #18605D; /* Меняем цвет на #18605D при наведении */
-    transform: scale(1.1); /* Увеличиваем размер иконки при наведении (по желанию) */
+    fill: #18605D; 
+    transform: scale(1.1); 
 }
 
 
