@@ -141,6 +141,30 @@ nav li:not(:last-child) {
     margin-left: 8px; 
 }
 
+.back-button {
+    height:53px;
+    width: 160px;
+    display: flex; 
+    background-color: #91AB86;
+    border-radius:24px;
+    align-items: center; 
+    justify-content: center; 
+    color: #EDB8B8; 
+    text-decoration: none; 
+    margin-left:18px; 
+    margin-top: 60px;
+    transition: transform 0.3s ease; 
+}
+.back-button p {
+    font-size: 20px; 
+    font-family: 'Cormorant Unicase';
+}
+.back-button img {
+    width: 43px;
+    height: auto;
+    margin-left: 8px; 
+}
+
 
 
 
