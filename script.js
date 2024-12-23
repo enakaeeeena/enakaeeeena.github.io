@@ -5,7 +5,7 @@
 //     }
 // }
 function scrollToSection(event, sectionId) {
-    event.preventDefault();
+    event.preventDefault(); 
     const section = document.getElementById(sectionId);
     if (section) {
         section.scrollIntoView({ behavior: 'smooth' });
@@ -23,8 +23,6 @@ function sendEmail() {
 
     const subject = encodeURIComponent('Сообщение от ' + name);
     const body = encodeURIComponent('Имя: ' + name + '\nПочта: ' + email + '\nСообщение: ' + message);
-    
     const mailtoLink = `mailto:your-email@example.com?subject=${subject}&body=${body}`;
-    
     window.location.href = mailtoLink;
 }
