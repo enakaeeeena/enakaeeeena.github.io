@@ -5,7 +5,7 @@
 //     }
 // }
 function scrollToSection(event, sectionId) {
-    event.preventDefault(); // Предотвращаем переход по ссылке
+    event.preventDefault();
     const section = document.getElementById(sectionId);
     if (section) {
         section.scrollIntoView({ behavior: 'smooth' });
