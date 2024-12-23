@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="font.css">
+    <script src = 'jqwery.js'> </script>
  
 </head>
 
@@ -35,52 +36,189 @@
     </header>
 
     <main>
-        <div class = 'photo1'>
-    
-        </div>
- 
+        <section class = "home">
+            <div class = 'photo1'></div>
+            <div class = "container">
+                <div class = "home_content"> 
 
-        <h1>Вяжем?</h1>
-        <h2>Вяжем!</h2>
+                    <h1>Вяжем?</h1>
+                <h2>Вяжем!</h2>
+
+                <p class = "style1">
+                    Изделия ручной работы для вас и ваших близких
+                </p>
+                <div class = "home-btn">
+                    <a href="#"class = "btn"> Купить сейчас!</a>
+                </div>
+                </div>
+            </div>
+            </section>
+            <div class = 'photo2'></div>
+
+            <section class='About_me'>
+                <div class="container">
+                    <div class='about_me_title'>
+                        <div class='photo4'></div>
+                        <h3>Обо мне</h3>
+                    </div class  = "content1">
 
 
+                    <div class = "stroka_1">
     
-        <p class = 'style1'>
-            Изделия ручной работы для вас и ваших близких
-        </p>
+                        <div class = "block1">
+                            <p>
+                                Меня зовут Яна, и я очень люблю рукодельничать. И я могу помочь вам подобрать уникальный подарок для ваших близких или дополнить ваш образ уникальными аксессуарами.
+                            </p>
+                            <div class='oborki1'></div>
     
-        <p class = 'second_style'>
-            Купить сейчас
-        </p>
-        
-        <p class="third_style">Сделано с вниманием к каждой петельке!</p>
-        <section 1>
+                        </div>
+
+                        <div class = 'photos1'>
+                            <div>  
+                                <img src= images\me_in_hat.png alt="me_in_hat"  />
+                            </div>
+                            <div>  
+                                <img src= images\me_with_flowers_1.png alt="me_in_hat" />
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class = stroka_2> 
+                
+                        <div class = "block2">
+                            <div class='oborki2'></div>
+                            <p>
+                                У меня всегда найдутся интересные вещички в каталоге, но я также всегда буду рада осуществить ваши идеи и придумать что-то необычное.
+                            </p>
+                    </div>
+                    <div class = photos2> 
+                        <div>  
+                            <img src= images\me_with_flowers_2.png alt="me_in_hat"  />
+                        </div>
+                        <div>  
+                            <img src= images\me_in_hat_2.png alt="me_in_hat" />
+                        </div>
+
+
+                    </div>
+                    
+
+                </div>
+            </section>
+    
+            <!-- <section class = "catalog">
+                <div class = 'photo3'></div>
+                <div class = "container">
+                    <div class = "catalog_title">
+                        <h1>Каталог</h1> 
+                    </div>
+                    <div class="block3">
+                        <a href="#"class = "button_1">  <img src= images\catalog_1.png alt="catalog_1"  /> 
+                            <p> </p></a>
+                        <a href="#"class = "button_2"> <img src= images\catalog_2.png alt="me_in_hat"  /></a>
+                        <a href="#"class = "button_3"> <img src= images\catalog_3.png alt="me_in_hat"  /></a>
+                        <a href="#"class = "button_4"> <img src= images\catalog_4.png alt="me_in_hat"  /></a>
+
+                    </div>
+
+                </div>
+
+    
+    
+            </section> -->
+            <div class="photo3"></div> <!-- Фоновое изображение -->
+            <section class="catalog">
+                <div class="container">
+                    <div class="catalog_title">
+                        <h1>Каталог</h1> 
+                    </div>
+                    <div class="block3">
+                        <a href="#" class="button_1">  
+                            <p>Вещи</p>
+                            <img src="images/catalog_1.png" alt="catalog_1" /> 
+                        </a>
+                        <a href="#" class="button_2"> 
+                            <p>Сумки</p>
+                            <img src="images/catalog_2.png" alt="catalog_2" />
+                        </a>
+                        <a href="#" class="button_3"> 
+                            <p>Цветы</p>
+                            <img src="images/catalog_3.png" alt="catalog_3" />
+                        </a>
+                        <a href="#" class="button_4"> 
+                            <p>Ваши идеи!</p>
+                            <img src="images/catalog_4.png" alt="catalog_4" />
+                        </a>
+                    </div>
+                </div>
+            </section>
             
-            <h1>Обо мне</h1>
-            <p>
-                Меня зовут Яна, и я очень люблю рукодельничать. И я могу помочь вам подобрать уникальный подарок для ваших близких или дополнить ваш образ уникальными аксессуарами. 
-            </p>
-            <p>
-                У меня всегда найдутся интересные вещички в каталоге, но я также всегда буду рада осуществить ваши идеи и придумать что-то необычное. 
-            </p>
-        </section 1>
+            
+            <section class = "feedback">
+                <div class = "container">
+                    <div class = "feedback_title">
+                        <h3>Осуществлю ваши идеи</h3> 
+                    </div>
+                    <div class = "end">
+                        <div class="form-group">
+                            <p for="name">Имя</p>
+                            <input type="text" id="name" placeholder="Введите ваше имя" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <p for="email">Почта</p>
+                            <input type="email" id="email" placeholder="Введите вашу почту" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <p for="message">Сообщение</p>
+                            <textarea id="message" placeholder="Введите ваше сообщение" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="submit-button"> Отправить</button>
+                    </div>
+
+                </div>
         
-        <section 2>
-            <h1>Каталог</h1>
 
 
-        </section>
-        
-        <h3>Осуществлю ваши</h3>
-
-    
+            </section>
+            
     </main>
-
-
     <footer>
+        <div class="footer-image">  </div>
+        <div class = "footer_color">
+            <div class = "container"> 
+                <div class="footer_line">
+                    <div class="logo">
+                        <img src="images/logo_footer.png" alt="my_logo" />
+                    </div>
+                    <div class="icons">
+                        <a href="#" class="icon-button">
+                            <img src="images/TG.svg" alt="tg_logo" />
+                        </a>
+                        <a href="#" class="icon-button">
+                            <img src="images/vk.svg" alt="vk_logo" />
+                        </a>
+                        <a href="#" class="icon-button">
+                            <img src="images/inst.svg" alt="inst_logo" />
+                        </a>
+                    </div>
+                    <p class="footer-text">©2024</p>
+                </div>
 
+            </div>
+    
+
+        </div>
+        
     </footer>
+    
+
 </div>
+<link rel="stylesheet" href="lightzoom/style.css" type="text/css">
+<script type="text/javascript" src="lightzoom/lightzoom.js"></script>
 </body>
     
 </html>
