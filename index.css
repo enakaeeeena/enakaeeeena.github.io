@@ -464,14 +464,13 @@ p {
     margin-right: auto;
     position: relative; 
 }
-
-.feedback h3 {
+.feedback h3{
     color: #18605D;
-    font-family: 'FoglihtenNo06';
-    text-align: center;
-    font-size: 44px;
-}
+	font-family:'FoglihtenNo06' ;
+	text-align:center;
+	font-size:44px;
 
+}
 .end {
     padding-left: 5px;
     padding-right: 5px;
@@ -481,17 +480,17 @@ p {
     width: 788px;
     height: auto;
     margin: 0 auto; /* Центрируем блок */
+    text-align: center; 
 }
 
-.form-group {
-    margin-bottom: 20px; /* Увеличьте отступ между группами */
-    text-align: left; /* Выравнивание текста по левому краю */
+form-group {
+    margin-bottom: 0;
 }
 
 .end p {
-    padding-top: 20px;
+    padding-top:20px;
     color: #18605D;
-    font-family: 'Adlery Pro';
+	font-family:'Adlery Pro';
     font-size: 24px;
 }
 
@@ -504,7 +503,6 @@ textarea {
     border: 2px solid #91AB86; 
     border-radius: 40px; 
     box-sizing: border-box; 
-    background-color: #F4F0D8;
 }
 
 textarea {
@@ -517,7 +515,6 @@ input[type="email"]:focus {
     border-color: #91AB86;
     outline: #FFF8E4; 
 }
-
 .submit-button {
     width: 50%; 
     max-width: 788px;
@@ -529,11 +526,10 @@ input[type="email"]:focus {
     border-radius: 12px; 
     cursor: pointer; 
     font-size: 24px; 
-    display: block; /* Измените на block для центровки */
-    margin-left: auto; /* Центрируем кнопку */
-    margin-right: auto; /* Центрируем кнопку */
-    font-family: 'FoglihtenNo06';
+    display: inline-block; 
+	font-family:'FoglihtenNo06' ;
     transition: fill 0.3s, transform 0.4s;
+    text-decoration: none;
 }
 
 .submit-button:hover {
