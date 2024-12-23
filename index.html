@@ -19,11 +19,15 @@
                     <ul class="header-menu">
                         <li>
                             <a href="/"><img src="images\logo.png" alt="Whitesquare logo"></a>
-                        </li>
+                        <!-- </li>
                         <li><a href="/home/">Главная</a></li>
                         <li><a href="/about_me/">Обо мне</a></li>
                         <li><a href="/catalog/">Каталог</a></li>
-                        <li><a href="/contacts/">Контакты</a></li>
+                        <li><a href="/contacts/">Контакты</a></li> -->
+                        <li><a href="#" onclick="scrollToSection('home')">Главная</a></li>
+                        <li><a href="#" onclick="scrollToSection('About_me')">Обо мне</a></li>
+                        <li><a href="#" onclick="scrollToSection('catalog')">Каталог</a></li>
+                        <li><a href="#" onclick="scrollToSection('feedback')">Контакты</a></li>
                     </ul>
         
                 </nav>
@@ -107,27 +111,8 @@
                 </div>
             </section>
     
-            <!-- <section class = "catalog">
-                <div class = 'photo3'></div>
-                <div class = "container">
-                    <div class = "catalog_title">
-                        <h1>Каталог</h1> 
-                    </div>
-                    <div class="block3">
-                        <a href="#"class = "button_1">  <img src= images\catalog_1.png alt="catalog_1"  /> 
-                            <p> </p></a>
-                        <a href="#"class = "button_2"> <img src= images\catalog_2.png alt="me_in_hat"  /></a>
-                        <a href="#"class = "button_3"> <img src= images\catalog_3.png alt="me_in_hat"  /></a>
-                        <a href="#"class = "button_4"> <img src= images\catalog_4.png alt="me_in_hat"  /></a>
-
-                    </div>
-
-                </div>
-
     
-    
-            </section> -->
-            <div class="photo3"></div> <!-- Фоновое изображение -->
+            <div class="photo3"></div>
             <section class="catalog">
                 <div class="container">
                     <div class="catalog_title">
@@ -160,7 +145,7 @@
                     <div class = "feedback_title">
                         <h3>Осуществлю ваши идеи</h3> 
                     </div>
-                    <div class = "end">
+                    <!-- <div class = "end">
                         <div class="form-group">
                             <p for="name">Имя</p>
                             <input type="text" id="name" placeholder="Введите ваше имя" required>
@@ -177,7 +162,23 @@
                         </div>
                         
                         <button type="submit" class="submit-button"> Отправить</button>
+                    </div> -->
+                    <div class="end">
+                        <div class="form-group">
+                            <p for="name">Имя</p>
+                            <input type="text" id="name" placeholder="Введите ваше имя" required>
+                        </div>
+                        <div class="form-group">
+                            <p for="email">Почта</p>
+                            <input type="email" id="email" placeholder="Введите вашу почту" required>
+                        </div>
+                        <div class="form-group">
+                            <p for="message">Сообщение</p>
+                            <textarea id="message" placeholder="Введите ваше сообщение" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-button" onclick="sendEmail()">Отправить</button>
                     </div>
+                </div>
 
                 </div>
         
@@ -217,6 +218,7 @@
     
 
 </div>
+<script src="script.js"></script>
 <link rel="stylesheet" href="lightzoom/style.css" type="text/css">
 <script type="text/javascript" src="lightzoom/lightzoom.js"></script>
 </body>
