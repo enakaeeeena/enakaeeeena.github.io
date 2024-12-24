@@ -328,6 +328,11 @@ body {
     margin-right: auto;
     position: relative; 
 }
+.catalog-title h1 {
+    font-size: 80px;
+    font-family: "Rhythm and Jazz Decor";
+
+}
 
 .catalog-section h1 {
     color: #E9C1C2;
@@ -441,6 +446,10 @@ body {
     height: auto; 
     display: block; 
 }
+.block3 p{
+    font-size: 20px;
+    font-family:  "FoglihtenNo06";
+}
 
 .button1:hover, .button2:hover, .button3:hover, .button4:hover {
     transform: scale(1.05); 
@@ -466,9 +475,9 @@ body {
     position: relative; 
 }
 
-.feedback h3 {
+.feedback-title h3 {
     color: #18605D;
-    font-family: 'FoglihtenNo06';
+    font-family: "FoglihtenNo06";
     text-align: center;
     font-size: 44px;
 }
