@@ -7,217 +7,191 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="font.css">
-    <script src = 'jqwery.js'> </script>
- 
+    <script src='jqwery.js'></script>
+    <link href="images/favicon.ico" rel="icon" type="image/x-icon">
 </head>
 
 <body>
-    <header class = "header">
-        <div class = container>
+    <header class="header">
+        <div class="container">
             <div class="header-row">
                 <nav>
                     <ul class="header-menu">
                         <li>
-                            <a href="/"><img src="images\logo.png" alt="Whitesquare logo"></a>
-                        <!-- </li>
-                        <li><a href="/home/">Главная</a></li>
-                        <li><a href="/about_me/">Обо мне</a></li>
-                        <li><a href="/catalog/">Каталог</a></li>
-                        <li><a href="/contacts/">Контакты</a></li> -->
+                            <a href="/"><img src="images/logo.png" alt="Whitesquare logo"></a>
+                        </li>
                         <li><a href="#" onclick="scrollToSection(event, 'home')">Главная</a></li>
                         <li><a href="#" onclick="scrollToSection(event, 'About_me')">Обо мне</a></li>
                         <li><a href="#" onclick="scrollToSection(event, 'catalog')">Каталог</a></li>
                         <li><a href="#" onclick="scrollToSection(event, 'feedback')">Контакты</a></li>
-
-                     
                     </ul>
-        
                 </nav>
-
             </div>
         </div>
-    
-
-
     </header>
 
     <main>
-        <section id="home" class = 'home'>
-            <div class = 'photo1'></div>
-            <div class = "container">
-                <div class = "home_content"> 
-
-                    <h1>Вяжем?</h1>
-                <h2>Вяжем!</h2>
-
-                <p class = "style1">
-                    Изделия ручной работы для вас и ваших близких
-                </p>
-                <div class="home-btn">
-                    <a href="#" onclick="scrollToSection(event, 'catalog')" class="btn">Купить сейчас!</a>
+        <section id="home" class='home-section'>
+            <div class='image1'></div>
+            <div class="container">
+                <div class="home-content"> 
+                    <h1 class="title1">Вяжем?</h1>
+                    <h2 class="title2">Вяжем!</h2>
+                    <p class="text-style">
+                        Изделия ручной работы для вас и ваших близких
+                    </p>
+                    <div class="home-button">
+                        <a href="#" onclick="scrollToSection(event, 'catalog')" class="button">Купить сейчас!</a>
+                    </div>
                 </div>
             </div>
-            </section>
-            <div class = 'photo2'></div>
+            <div class='image2'></div>
+        </section>
 
-            <section id="About_me" class='About_me'>
-                <div class="container">
-                    <div class='about_me_title'>
-                        <div class='photo4'></div>
-                        <h3>Обо мне</h3>
-                    </div class  = "content1">
+        <section id="About_me" class='about-section'>
+            <div class="container">
+                <div class='about-title'>
+                    <div class='image4'></div>
+                    <h3 class="subtitle">Обо мне</h3>
+                </div>
 
-
-                    <div class = "stroka_1">
-    
-                        <div class = "block1">
-                            <p>
-                                Меня зовут Яна, и я очень люблю рукодельничать. И я могу помочь вам подобрать уникальный подарок для ваших близких или дополнить ваш образ уникальными аксессуарами.
-                            </p>
-                            <div class='oborki1'></div>
-    
-                        </div>
-
-                        <div class = 'photos1'>
-                            <div>  
-                                <img src= images\me_in_hat.png alt="me_in_hat"  />
-                            </div>
-                            <div>  
-                                <img src= images\me_with_flowers_1.png alt="me_in_hat" />
-                            </div>
-
-                        </div>
+                <div class="row1">
+                    <div class="block1">
+                        <p>
+                            Меня зовут Яна, и я очень люблю рукодельничать. И я могу помочь вам подобрать уникальный подарок для ваших близких или дополнить ваш образ уникальными аксессуарами.
+                        </p>
+                        <div class='decor1'></div>
                     </div>
 
-                    <div class = stroka_2> 
-                
-                        <div class = "block2">
-                            <div class='oborki2'></div>
-                            <p>
-                                У меня всегда найдутся интересные вещички в каталоге, но я также всегда буду рада осуществить ваши идеи и придумать что-то необычное.
-                            </p>
-                    </div>
-                    <div class = photos2> 
+                    <div class='image-group1'>
                         <div>  
-                            <img src= images\me_with_flowers_2.png alt="me_in_hat"  />
+                            <img src="images/me_in_hat.png" alt="knitted_hat" />
                         </div>
                         <div>  
-                            <img src= images\me_in_hat_2.png alt="me_in_hat" />
+                            <img src="images/me_with_flowers_1.png" alt="knitted_hat2" />
                         </div>
-
-
-                    </div>
-                    
-
-                </div>
-            </section>
-    
-    
-            <div class="photo3"></div>
-            <section id="catalog" class='catalog'>
-                <div class="container">
-                    <div class="catalog_title">
-                        <h1>Каталог</h1> 
-                    </div>
-                    <div class="block3">
-                        <a href="#" class="button_1">  
-                            <p>Вещи</p>
-                            <img src="images/catalog_1.png" alt="catalog_1" /> 
-                        </a>
-                        <a href="second_page.html" class="button_2"> 
-                            <p>Сумки</p>
-                            <img src="images/Catalog_2.png" alt="catalog_2" />
-                        </a>
-                        <a href="#" class="button_3"> 
-                            <p>Цветы</p>
-                            <img src="images/Catalog_3.png" alt="catalog_3" />
-                        </a>
-                        <a href="#" onclick="scrollToSection(event, 'feedback')" class="button_4"> 
-                            <p>Ваши идеи!</p>
-                            <img src="images/catalog_4.png" alt="catalog_4" />
-                        </a>
                     </div>
                 </div>
-            </section>
-            <section id="feedback" class='feedback'>
-                <div class="container">
-                    <div class="feedback_title">
-                        <h3>Осуществлю ваши идеи</h3> 
+
+                <div class="row2"> 
+                    <div class="block2">
+                        <div class='decor2'></div>
+                        <p>
+                            У меня всегда найдутся интересные вещички в каталоге, но я также всегда буду рада осуществить ваши идеи и придумать что-то необычное.
+                        </p>
                     </div>
-                    <div class="end">
-                        <div class="form-group">
-                            <p for="name">Имя</p>
-                            <input type="text" id="name" placeholder="Введите ваше имя" required>
+                    <div class='image-group2'> 
+                        <div>  
+                            <img src="images/me_with_flowers_2.png" alt="knitted_hat" />
                         </div>
-                        <div class="form-group">
-                            <p for="email">Почта</p>
-                            <input type="email" id="email" placeholder="Введите вашу почту" required>
+                        <div>  
+                            <img src="images/me_in_hat_2.png" alt="knitted_hat" />
                         </div>
-                        <div class="form-group">
-                            <p for="message">Сообщение</p>
-                            <textarea id="message" placeholder="Введите ваше сообщение" required></textarea>
-                        </div>
-                        <a href="#" class="submit-button" onclick="sendEmail()">Отправить</a>
                     </div>
                 </div>
-            </section>
-            
-            <script>
-            function sendEmail() {
-                const name = document.getElementById('name').value;
-                const email = document.getElementById('email').value;
-                const message = document.getElementById('message').value;
-            
-                if (!name || !email || !message) {
-                    alert('Пожалуйста, заполните все поля.');
-                    return;
-                }
-            
-                const subject = encodeURIComponent('Сообщение от ' + name);
-                const body = encodeURIComponent('Имя: ' + name + '\nПочта: ' + email + '\nСообщение: ' + message);
-                
-                const mailtoLink = `mailto:your-email@example.com?subject=${subject}&body=${body}`;
-                
-                window.location.href = mailtoLink;
+            </div>
+        </section>
+
+        <div class="image3"></div>
+        <section id="catalog" class='catalog-section'>
+            <div class="container">
+                <div class="catalog-title">
+                    <h1>Каталог</h1> 
+                </div>
+                <div class="block3">
+                    <a href="#" class="button1">  
+                        <p>Вещи</p>
+                        <img src="images/catalog_1.png" alt="catalog_photo1" /> 
+                    </a>
+                    <a href="second_page.html" class="button2"> 
+                        <p>Сумки</p>
+                        <img src="images/Catalog_2.png" alt="catalog_photo2" />
+                    </a>
+                    <a href="#" class="button3"> 
+                        <p>Цветы</p>
+                        <img src="images/Catalog_3.png" alt="catalog_photo3" />
+                    </a>
+                    <a href="#" onclick="scrollToSection(event, 'feedback')" class="button4"> 
+                        <p>Ваши идеи!</p>
+                        <img src="images/catalog_4.png" alt="catalog_photo4" />
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="feedback" class='feedback-section'>
+            <div class="container">
+                <div class="feedback-title">
+                    <h3>Осуществлю ваши идеи</h3> 
+                </div>
+                <div class="footer-end">
+                    <div class="form-field">
+                        <p for="name">Имя</p>
+                        <input type="text" id="name" placeholder="Введите ваше имя" required>
+                    </div>
+                    <div class="form-field">
+                        <p for="email">Почта</p>
+                        <input type="email" id="email" placeholder="Введите вашу почту" required>
+                    </div>
+                    <div class="form-field">
+                        <p for="message">Сообщение</p>
+                        <textarea id="message" placeholder="Введите ваше сообщение" required></textarea>
+                    </div>
+                    <a href="#" class="submit-button" onclick="sendEmail()">Отправить</a>
+                </div>
+            </div>
+        </section>
+        
+        <script>
+        function sendEmail() {
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const message = document.getElementById('message').value;
+        
+            if (!name || !email || !message) {
+                alert('Пожалуйста, заполните все поля.');
+                return;
             }
-            </script>
+        
+            const subject = encodeURIComponent('Сообщение от ' + name);
+            const body = encodeURIComponent('Имя: ' + name + '\nПочта: ' + email + '\nСообщение: ' + message);
             
-
+            const mailtoLink = `mailto:your-email@example.com?subject=${subject}&body=${body}`;
+            
+            window.location.href = mailtoLink;
+        }
+        </script>
     </main>
+
     <footer>
-        <div class="footer-image">  </div>
-        <div class = "footer_color">
-            <div class = "container"> 
-                <div class="footer_line">
-                    <div class="logo">
-                        <img src="images/logo_footer.png" alt="my_logo" />
+        <div class="footer-image"></div>
+        <div class="footer-background">
+            <div class="container"> 
+                <div class="footer-row">
+                    <div class="footer-logo">
+                        <img src="images/logo_footer.png" alt="logo" />
                     </div>
-                    <div class="icons">
-                        <a href="https://t.me/enakaeeeena" class="icon-button" target="_blank">
+                    <div class="footer-icons">
+                        <a href="tel:+79991462961" class="icon-link" target="_blank">
+                            <img src="images/tel.svg" alt="phone_logo" />
+                        <a href="https://t.me/enakaeeeena" class="icon-link" target="_blank">
                             <img src="images/tg.svg" alt="tg_logo" />
                         </a>
-                        <a href="https://vk.com/id705126036" class="icon-button" target="_blank">
+                        <a href="https://vk.com/id705126036" class="icon-link" target="_blank">
                             <img src="images/vk.svg" alt="vk_logo" />
                         </a>
-                        <a href="#" class="icon-button">
+                        <a href="#" class="icon-link">
                             <img src="images/inst.svg" alt="inst_logo" />
                         </a>
                     </div>
                     <p class="footer-text">©2024</p>
                 </div>
-
             </div>
-    
-
         </div>
-        
     </footer>
-    
 
-</div>
-<script src="script.js"></script>
-<link rel="stylesheet" href="lightzoom/style.css" type="text/css">
-<script type="text/javascript" src="lightzoom/lightzoom.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="lightzoom/style.css" type="text/css">
+    <script type="text/javascript" src="lightzoom/lightzoom.js"></script>
 </body>
-    
 </html>
