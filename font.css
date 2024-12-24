@@ -4,13 +4,17 @@
 }
 @font-face {
     font-family: FoglihtenNo06;
-    src: url("C:\Users\Сергей\Desktop\мой сайт\font\FoglihtenNo06\FoglihtenNo06_076.otf") format('ttf');
+    src: url("C:\Users\Сергей\Documents\GitHub\enakaena.github.io\font\FoglihtenNo06\FoglihtenNo06_076.otf") format('ttf');
 }
 @font-face {
     font-family: Rhythm and Jazz Decor;
-    src: url("C:\Users\Сергей\Desktop\мой сайт\font\Rhythm and Jazz Decor\Rhythm-and-Jazz-Decor.ttf") format('ttf');
+    src: url("C:\Users\Сергей\Documents\GitHub\enakaena.github.io\font\Rhythm and Jazz Decor\Rhythm-and-Jazz-Decor.ttf") format('ttf');
 }
 @font-face {
     font-family: Cormorant Unicased;
-    src: url("C:\Users\Сергей\Desktop\мой сайт\font\Cormorant Unicase\CormorantUnicase-Regular.ttf") format('ttf');
+    src: url("C:\Users\Сергей\Documents\GitHub\enakaena.github.io\font\Cormorant Unicase\CormorantUnicase-Regular.ttf") format('ttf');
+}
+@font-face {
+    font-family: Adlery Pro;
+    src: url("C:\Users\Сергей\Documents\GitHub\enakaena.github.io\font\Cormorant Unicase\CormorantUnicase-Medium.ttf") format('ttf');
 }
